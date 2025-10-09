@@ -175,7 +175,7 @@ doc-text-printer-experiment-report =
     ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
     ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Бланк документа[/head]
     ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color] [bold]Station XX-000 НИО[/bold]
+    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color] [bold]Station XX-000 РнД[/bold]
     ⠀[color=#1b487e]░░░░██░░░████░███[/color]
     =============================================
                         ОТЧЁТ ОБ ЭКСПЕРИМЕНТЕ
@@ -530,7 +530,7 @@ doc-text-printer-request-modernization =
     ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
     ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Бланк документа[/head]
     ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color] [bold]Station XX-000 КОД-НИО[/bold]
+    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color] [bold]Station XX-000 КОД-РнД[/bold]
     ⠀[color=#1b487e]░░░░██░░░████░███[/color]
     =============================================
                 ЗАПРОС НА ПРОВЕДЕНИЕ МОДЕРНИЗАЦИИ
@@ -808,7 +808,7 @@ doc-text-printer-order-recognizing-rentience-creature =
     ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
     ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Бланк документа[/head]
     ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color] [bold]Station XX-000 НИО[/bold]
+    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color] [bold]Station XX-000 РнД[/bold]
     ⠀[color=#1b487e]░░░░██░░░████░███[/color]
     =============================================
             ПРИКАЗ О ПРИЗНАНИИ РАЗУМНОСТИ СУЩЕСТВА
