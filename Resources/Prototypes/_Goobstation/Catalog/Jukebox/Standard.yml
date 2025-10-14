@@ -288,3 +288,70 @@
   name: Crockitz - Abductor
   path:
     path: /Audio/_Goobstation/Music/Abductor.ogg
+
+- type: jukebox
+  id: C418
+  name: C418
+  path:
+    path: /Audio/_Goobstation/Music/C418.ogg
+
+- type: jukebox
+  id: sys
+  name: SOD-36
+  path:
+    path: /Audio/_Goobstation/Music/36.ogg
+
+- type: jukebox
+  id: pl
+  name: Pretty Please
+  path:
+    path: /Audio/_Goobstation/Music/pl.ogg
+
+- type: jukebox
+  id: ap
+  name: Серега Пират - Апельсин
+  path:
+    path: /Audio/_Goobstation/Music/ap.ogg
+
+- type: jukebox
+  id: ddw
+  name: Intervallo III BattleTheme A1
+  path:
+    path: /Audio/_Goobstation/Music/Intervallo_III_Battle_Theme_A1.ogg
+
+- type: jukebox
+  id: ddww
+  name: Intervallo V2 Battle
+  path:
+    path: /Audio/_Goobstation/Music/Intervallo_V_2_Battle.ogg
+
+- type: jukebox
+  id: Hero.ogg
+  name: Hero
+  path:
+    path: /Audio/_Goobstation/Music/Hero.ogg
+
+- type: jukebox
+  id: TIAN
+  name: TIAN_TIAN
+  path:
+    path: /Audio/_Goobstation/Music/TIAN_TIAN.ogg
+
+- type: jukebox
+  id: Compass
+  name: Compass
+  path:
+    path: /Audio/_Goobstation/Music/Compass.ogg
+
+- type: jukebox
+  id: Patches
+  name: Patches of Violet
+  path:
+    path: /Audio/_Goobstation/Music/Patches.ogg
+
+- type: jukebox
+  id: BTW
+  name: Between Two Worlds
+  path:
+    path: /Audio/_Goobstation/Music/Between_Two_Worlds.ogg
+
