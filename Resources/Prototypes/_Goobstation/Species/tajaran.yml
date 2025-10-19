@@ -14,7 +14,10 @@
   id: Tajaran
   name: species-name-tajaran
   roundStart: true
+<<<<<<< HEAD
   sponsorOnly: false # CorvaxGoob-Sponsors
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
   prototype: MobTajaran
   sprites: MobTajaranSprites
   markingLimits: MobTajaranMarkingLimits

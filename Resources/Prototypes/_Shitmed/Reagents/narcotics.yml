@@ -6,13 +6,22 @@
   metabolisms:
     Narcotic:
       effects:
+<<<<<<< HEAD
       - !type:GenericStatusEffect
+=======
+      - !type:ModifyStatusEffect
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
         conditions:
         # this intentionally has no yowie condition so abductors can sleep disgruntled yowies
         - !type:ReagentThreshold
           reagent: NocturineWonderprod
           min: 8
+<<<<<<< HEAD
         key: ForcedSleep
         component: ForcedSleeping
         refresh: true # refreshes so hitting someone with wonderprod 10 times doesnt put them to sleep for an hour
+=======
+        effectProto: StatusEffectForcedSleeping
+        time: 3
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
         type: Add

@@ -19,6 +19,10 @@ using Content.Shared.Chat;
 using Content.Shared.DoAfter;
 using Content.Shared.Examine;
 using Content.Shared.Verbs;
+<<<<<<< HEAD
+=======
+using Content.Shared.Audio.Jukebox;
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Containers;
@@ -33,6 +37,10 @@ public sealed class ClowncarSystem : SharedClowncarSystem
     [Dependency] private readonly SharedContainerSystem _container = default!;
     [Dependency] private readonly SharedBuckleSystem _buckle = default!;
     [Dependency] private readonly SharedAudioSystem _audioSystem = default!;
+<<<<<<< HEAD
+=======
+    [Dependency] private readonly SharedUserInterfaceSystem _uiSystem = default!;
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
     /// <inheritdoc/>
 
@@ -45,7 +53,11 @@ public sealed class ClowncarSystem : SharedClowncarSystem
         SubscribeLocalEvent<ClowncarComponent, ClownCarOpenTrunkDoAfterEvent>(OnOpenTrunk);
         SubscribeLocalEvent<ClowncarComponent, ExaminedEvent>(OnExamined);
         SubscribeLocalEvent<ClowncarComponent, QuietBackThereActionEvent>(OnQuietInTheBack);
+<<<<<<< HEAD
         SubscribeLocalEvent<ClowncarComponent, DrivingWithStyleActionEvent>(OnDrunkDriving);
+=======
+        SubscribeLocalEvent<JukeboxComponent, DrivingWithStyleActionEvent>(OnDrivingWithStyle);
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
     }
 
     private void OnThankRider(EntityUid uid, ClowncarComponent component, ThankRiderActionEvent args)
@@ -177,10 +189,17 @@ public sealed class ClowncarSystem : SharedClowncarSystem
         args.Handled = true;
     }
 
+<<<<<<< HEAD
     private void OnDrunkDriving(Entity<ClowncarComponent> clownCar, ref DrivingWithStyleActionEvent args)
     {
         _audioSystem.PlayPvs(clownCar.Comp.ClownMusic, clownCar);
         args.Handled = true;
 
+=======
+    private void OnDrivingWithStyle(Entity<JukeboxComponent> clownCar, ref DrivingWithStyleActionEvent args)
+    {
+        _uiSystem.TryOpenUi(clownCar.Owner, JukeboxUiKey.Key, args.Performer);
+        args.Handled = true;
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
     }
 }

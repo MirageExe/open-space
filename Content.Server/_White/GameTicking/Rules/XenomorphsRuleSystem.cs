@@ -22,6 +22,10 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
+<<<<<<< HEAD
+=======
+using Robust.Server.Audio; // Goobstation - Play music on announcement
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
 namespace Content.Server._White.GameTicking.Rules;
 
@@ -39,6 +43,10 @@ public sealed class XenomorphsRuleSystem : GameRuleSystem<XenomorphsRuleComponen
     [Dependency] private readonly PopupSystem _popup = default!;
     [Dependency] private readonly RoundEndSystem _roundEnd = default!;
     [Dependency] private readonly StationSystem _station = default!;
+<<<<<<< HEAD
+=======
+    [Dependency] private readonly AudioSystem _audioSystem = default!; // Goobstation - Play music on announcement
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
     public override void Initialize()
     {
@@ -64,7 +72,10 @@ public sealed class XenomorphsRuleSystem : GameRuleSystem<XenomorphsRuleComponen
             return;
 
         component.Xenomorphs.Add(args.EntityUid);
+<<<<<<< HEAD
         component.AnnouncementTime ??= _timing.CurTime + _random.Next(component.MinTimeToAnnouncement, component.MaxTimeToAnnouncement);
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
     }
 
     private void OnXenomorphInit(EntityUid uid, XenomorphComponent component, ComponentInit args)
@@ -223,9 +234,23 @@ public sealed class XenomorphsRuleSystem : GameRuleSystem<XenomorphsRuleComponen
     {
         base.ActiveTick(uid, component, gameRule, frameTime);
 
+<<<<<<< HEAD
         if (!component.AnnouncementTime.HasValue || component.NextCheck > _timing.CurTime)
             return;
 
+=======
+        if (component.NextCheck > _timing.CurTime)
+            return;
+
+        if (!component.AnnouncementTime.HasValue)
+        {
+            var allQueens = GetXenomorphs(component, "Queen");
+            if (allQueens.Count > 0)
+            {
+                component.AnnouncementTime ??= _timing.CurTime + _random.Next(component.MinTimeToAnnouncement, component.MaxTimeToAnnouncement);
+            }
+        }
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
         component.NextCheck = _timing.CurTime + component.CheckDelay;
 
         if (!component.Announced && component.AnnouncementTime <= _timing.CurTime)
@@ -234,6 +259,11 @@ public sealed class XenomorphsRuleSystem : GameRuleSystem<XenomorphsRuleComponen
 
             if (!string.IsNullOrEmpty(component.Announcement))
                 _chat.DispatchGlobalAnnouncement(Loc.GetString(component.Announcement), component.Sender != null ? Loc.GetString(component.Sender) : null, colorOverride: component.AnnouncementColor);
+<<<<<<< HEAD
+=======
+
+            _audioSystem.PlayGlobal(component.XenomorphInfestationSound, Filter.Broadcast(), true); // Goobstation - Play music on announcement
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
         }
 
         CheckRoundEnd(uid, component, gameRule);
@@ -309,7 +339,11 @@ public sealed class XenomorphsRuleSystem : GameRuleSystem<XenomorphsRuleComponen
     {
         var xenomorphs = new List<EntityUid>();
 
+<<<<<<< HEAD
         foreach(var xenomorph in xenomorphsRule.Xenomorphs.ToList())
+=======
+        foreach (var xenomorph in xenomorphsRule.Xenomorphs.ToList())
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
         {
             if (!Exists(xenomorph) || !TryComp<XenomorphComponent>(xenomorph, out var xenomorphComponent))
             {

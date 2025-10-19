@@ -5,7 +5,11 @@
 
 - type: entity
   parent:
+<<<<<<< HEAD
     - SimpleMobBase
+=======
+    - SimpleSpaceMobBase
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
     - MobPolymorphable
   id: BaseMobSlaughterDemon
   name: slaughter demon
@@ -78,6 +82,13 @@
   - type: SlaughterDemon # main component
     speedModWalk: 2.5
     speedModRun: 2.5
+<<<<<<< HEAD
+=======
+    bloodCrawlSounds:
+      collection: bloodCrawl
+      params:
+        volume: 2
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
   - type: SlaughterDevour # allows the demon to devour
     toHeal: # Healing done when eating someone
       groups:
@@ -114,6 +125,10 @@
   - type: Targeting
   - type: Speech
     speechVerb: SlaughterDemon
+<<<<<<< HEAD
+=======
+    speechSounds: SlaughterDemon
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
   - type: TypingIndicator
     proto: guardian
   - type: Gibbable
@@ -150,6 +165,25 @@
   - type: WeakToHoly
     alwaysTakeHoly: true
   - type: Hands
+<<<<<<< HEAD
+=======
+  - type: PressureImmunity
+  - type: TriggerOnMobstateChange
+    mobState:
+    - Dead
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Effects/demon_dies.ogg
+  - type: Vocal
+    sounds:
+      Male: SlaughterDemon
+      Female: SlaughterDemon
+      Unsexed: SlaughterDemon
+  - type: ZombieImmune
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      200: 1
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
 # laughter demon
 - type: entity
@@ -169,7 +203,10 @@
     feastSound: /Audio/_Goobstation/Misc/scary_horn2.ogg
   - type: SlaughterDemon
     isLaughter: true
+<<<<<<< HEAD
     deathSound: /Audio/Effects/sadtrombone.ogg
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
   - type: Speech
     speechVerb: Cluwne
   - type: MeleeWeapon
@@ -194,6 +231,12 @@
     requirements:
     - !type:OverallPlaytimeRequirement
       time: 18000
+<<<<<<< HEAD
+=======
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Effects/sadtrombone.ogg
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
 # midround roll
 - type: entity

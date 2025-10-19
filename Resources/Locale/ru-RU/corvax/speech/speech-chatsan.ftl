@@ -248,4 +248,7 @@ corvax-chatsan-word-124 = лкм
 corvax-chatsan-replacement-124 = левая рука
 corvax-chatsan-word-125 = пкм
 corvax-chatsan-replacement-125 = правая рука
+<<<<<<< HEAD
 
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532

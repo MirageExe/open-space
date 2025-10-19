@@ -346974,8 +346974,6 @@ entities:
       pos: 61.5,183.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 51038
   - uid: 51029
@@ -346984,8 +346982,6 @@ entities:
       pos: 52.5,180.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 51038
   - uid: 51030
@@ -347002,8 +346998,6 @@ entities:
       pos: 69.5,178.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 51038
   - uid: 51032
@@ -347392,16 +347386,6 @@ entities:
     - type: Transform
       pos: 143.54213,109.448814
       parent: 2
-    - type: Item
-      heldPrefix: cooling
-    - type: ProjectileBatteryAmmoProvider
-      proto: BulletTemperatureCold
-    - type: EnergyGun
-      currentFireMode:
-        state: cooling
-        name: cooling
-        fireCost: 100
-        proto: BulletTemperatureCold
 - proto: WeaponTurretSyndicateBroken
   entities:
   - uid: 51070

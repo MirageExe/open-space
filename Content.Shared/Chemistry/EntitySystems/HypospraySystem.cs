@@ -23,6 +23,9 @@
 
 using Content.Goobstation.Maths.FixedPoint;
 using Content.Shared.Administration.Logs;
+using Content.Shared.Administration.Logs;
+using Content.Shared.Body.Components;
+using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.Components.SolutionManager;
 using Content.Shared.Chemistry.Hypospray.Events;
@@ -238,7 +241,13 @@ public sealed class HypospraySystem : EntitySystem
         RaiseLocalEvent(entity, ref afterinjectev);
 
         // same LogType as syringes...
+<<<<<<< HEAD
         _adminLogger.Add(LogType.ForceFeed, $"{EntityManager.ToPrettyString(user):user} injected {EntityManager.ToPrettyString(target):target} with a solution {SharedSolutionContainerSystem.ToPrettyString(removedSolution):removedSolution} using a {EntityManager.ToPrettyString(entity):using}");
+=======
+        _adminLogger.Add(LogType.ForceFeed, $"{ToPrettyString(user):user} injected {ToPrettyString(target):target} with a solution {SharedSolutionContainerSystem.ToPrettyString(removedSolution):removedSolution} using a {ToPrettyString(entity):using}");
+
+        return;
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
     }
 
     private void TryDoInjectDoAfter(Entity<HyposprayComponent> entity, ref HyposprayTryInjectDoAfterEvent args)

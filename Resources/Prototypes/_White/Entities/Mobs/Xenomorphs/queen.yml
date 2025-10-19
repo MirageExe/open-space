@@ -19,6 +19,7 @@
   - type: TailLash
     tailDamage:
       groups:
+<<<<<<< HEAD
         Brute: 17
     inject:
       Tirizene: 5
@@ -30,6 +31,19 @@
     - ActionSpawnResinNest
     - ActionSpawnResinWeedNode
     - ActionSpawnXenomorphEgg
+=======
+        Brute: 5
+    inject:
+      ChloralHydrate: 10 # Goobstation - new chemical
+  #- type: ActionGrant # Goobstation - moved to organs
+  #  actions:
+  #  - ActionTransferPlasma
+  #  - ActionSpawnWallResin
+  #  - ActionSpawnResinMembrane
+  #  - ActionSpawnResinNest
+  #  - ActionSpawnResinWeedNode
+  #  - ActionSpawnXenomorphEgg
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
   - type: Body
     prototype: XenomorphQueen
   - type: TypingIndicator
@@ -70,11 +84,19 @@
   - type: LanguageKnowledge
     speaks:
     - Xeno
+<<<<<<< HEAD
     - XenoHivemind
     - TauCetiBasic
     understands:
     - Xeno
     - XenoHivemind
+=======
+#    - XenoHivemind # Goobstation - collective mind
+    - TauCetiBasic
+    understands:
+    - Xeno
+#    - XenoHivemind # Goobstation - collective mind
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
     - Hissing
     - Draconic
     - TauCetiBasic
@@ -92,7 +114,11 @@
     makeSentient: true
     name: ghost-role-information-xenomorph-queen-name
     description: ghost-role-information-xenomorph-queen-description
+<<<<<<< HEAD
     rules: ghost-role-information-rules-default-team-antagonist
+=======
+    rules: ghost-role-information-rules-default-xeno
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
     raffle:

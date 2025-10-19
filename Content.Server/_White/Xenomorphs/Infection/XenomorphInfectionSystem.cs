@@ -44,6 +44,10 @@ public sealed class XenomorphInfectionSystem : EntitySystem
 
     private void OnOrganRemovedFromBody(EntityUid uid, XenomorphInfectionComponent component, OrganRemovedFromBodyEvent args)
     {
+<<<<<<< HEAD
+=======
+        RemComp<XenomorphPreventSuicideComponent>(args.OldBody);
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
         RemComp<XenomorphInfectedComponent>(args.OldBody);
         component.Infected = null;
     }

@@ -24,7 +24,11 @@
     - trigger:
         !type:DamageTypeTrigger
         damageType: Blunt
+<<<<<<< HEAD
         damage: 120
+=======
+        damage: 100 # Goobstation - nerfed health
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
@@ -34,7 +38,11 @@
     - trigger:
         !type:DamageTypeTrigger
         damageType: Heat
+<<<<<<< HEAD
         damage: 80
+=======
+        damage: 50 # Goobstation - nerfed health
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawnInContainer: true

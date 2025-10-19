@@ -1,12 +1,22 @@
 using Content.Goobstation.Common.Speech;
+<<<<<<< HEAD
 using Content.Server.Speech;
 using Content.Server.Speech.EntitySystems;
+=======
+using Content.Server.Speech.EntitySystems;
+using Content.Shared.Speech;
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 using Robust.Shared.Random;
 
 namespace Content.Goobstation.Server.Speech;
 
 public sealed class BritishAccentSystem : EntitySystem
+<<<<<<< HEAD
 {   //shamelessly stolen from the dementia accent
+=======
+{
+    //shamelessly stolen from the dementia accent
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly ReplacementAccentSystem _replacement = default!;
 
@@ -44,4 +54,8 @@ public sealed class BritishAccentSystem : EntitySystem
 
         args.Message = message;
     }
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532

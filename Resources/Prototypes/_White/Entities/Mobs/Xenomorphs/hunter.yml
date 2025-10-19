@@ -41,10 +41,17 @@
     lastVisibility: 0.2
   - type: Jump
     jumpAction: ActionJumpXenomorph
+<<<<<<< HEAD
   - type: ActionGrant
     actions:
     - ActionTransferPlasma
     - ActionSpawnResinWeedNode
+=======
+  #- type: ActionGrant # Goobstation - moved to organ
+  #  actions:
+  #  - ActionTransferPlasma
+  #  - ActionSpawnResinWeedNode
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
   - type: VentCrawler
   - type: Cuffable
   - type: Body
@@ -66,7 +73,11 @@
     makeSentient: true
     name: ghost-role-information-xenomorph-hunter-name
     description: ghost-role-information-xenomorph-hunter-description
+<<<<<<< HEAD
     rules: ghost-role-information-rules-default-team-antagonist
+=======
+    rules: ghost-role-information-rules-default-xeno
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
     raffle:

@@ -9,7 +9,7 @@
 - type: entity
   id: LibrarianTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: librarian translator implant
+  suffix: Librarian
   components:
   - type: Implanter
     implant: LibrarianTranslatorImplant
@@ -17,7 +17,11 @@
 - type: entity
   id: ChevalTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
+<<<<<<< HEAD
   name: Cheval translator implant
+=======
+  suffix: Cheval
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
   components:
   - type: Implanter
     implant: ChevalTranslatorImplant
@@ -26,7 +30,7 @@
 - type: entity
   id: BasicSpaceItalianTranslatorImplanter
   parent: BaseTranslatorImplanter
-  name: basic space italian translator implanter
+  suffix: Basic Space Italian
   components:
   - type: Implanter
     implant: BasicSpaceItalianTranslatorImplant
@@ -35,7 +39,7 @@
 - type: entity
   id: AdvancedSpaceItalianTranslatorImplanter
   parent: BaseTranslatorImplanter
-  name: advanced space italian translator implanter
+  suffix: Advanced Space Italian
   components:
   - type: Implanter
     implant: SpaceItalianTranslatorImplant

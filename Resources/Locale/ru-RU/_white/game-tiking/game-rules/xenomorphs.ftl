@@ -2,6 +2,7 @@ xenomorphs-announcement = Обнаружены неопознанные приз
 xenomorphs-no-more-threat-announcement = Судя по данным наших датчиков дальнего действия, все ксеноморфы были устранены.
 xenomorphs-win-announcement-shuttle-call =
     Мы обнаружили, что ксеноморфы захватила станцию. Всему оставшимуся персоналу следует взвести ядерную боеголовку и проследовать на шаттл эвакуации.
+<<<<<<< HEAD
 
     Эвакуационный шаттл был вызван. Он прибудет через: {$time} {$units}.
 xenomorphs-win-announcement =
@@ -9,12 +10,23 @@ xenomorphs-win-announcement =
 
     Эвакуационный шаттл уже в пути.
 
+=======
+    
+    Эвакуационный шаттл был вызван. Он прибудет через: { $time } { $units }.
+xenomorphs-win-announcement =
+    Мы обнаружили, что ксеноморфы захватила станцию. Всему оставшимуся персоналу следует взвести ядерную боеголовку и проследовать на шаттл эвакуации.
+    
+    Эвакуационный шаттл уже в пути.
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 xenomorphs-xenomajor = Крупная победа ксеноморфов!
 xenomorphs-xenominor = Скромная победа ксеноморфов!
 xenomorphs-neutral = Ничейный исход!
 xenomorphs-crewminor = Малая победа экипажа!
 xenomorphs-crewmajor = Разгромная победа экипажа!
+<<<<<<< HEAD
 
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 xenomorphs-cond-nukeexplodedonstation = Экипаж уничтожил ксеноморфов ядерной боеголовкой.
 xenomorphs-cond-nukeactiveinstation = Экипаж отсавил взведенную ядерную боеголовку на станции.
 xenomorphs-cond-xenotakeoverstation = Ксеноморфам удалось захватить станцию

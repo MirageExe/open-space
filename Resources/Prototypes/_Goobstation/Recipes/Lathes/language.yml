@@ -1,4 +1,5 @@
 - type: latheRecipe
+<<<<<<< HEAD
   id: ChevalTranslatorImplanter
   result: ChevalTranslatorImplanter
   completetime: 2
@@ -8,3 +9,9 @@
     Plastic: 100
     Gold: 50
     Silver: 50
+=======
+  parent: BaseTranslatorImplanter
+  id: ChevalTranslatorImplanter
+  subname: lathe-recipe-ChevalTranslatorImplanter-subname
+  result: ChevalTranslatorImplanter
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532

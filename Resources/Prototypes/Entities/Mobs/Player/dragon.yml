@@ -245,11 +245,9 @@
     - SlowedDown
     - Stutter
     - Electrocution
-    - ForcedSleep
     - TemporaryBlindness
     - Pacified
     - RadiationProtection
-    - Drowsiness
     - Adrenaline
   - type: Temperature
     heatDamageThreshold: 800
@@ -280,15 +278,24 @@
         Piercing: 15
         Slash: 15
   - type: Devourer
-    foodPreference: Humanoid
-    shouldStoreDevoured: true
+    foodPreferenceWhitelist:
+      components:
+      - HumanoidAppearance
+    stomachStorageWhitelist:
+      components:
+      - MobState
+      - Item
     chemical: Ichor
     healRate: 7.5
     whitelist:
       components:
       - MobState
       - Door
+<<<<<<< HEAD
       - Food # Goobstation - Allow devouring food items only
+=======
+      - Item
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
       tags:
       - Wall
   - type: Tag
@@ -426,7 +433,11 @@
       components:
       - MobState
       - Door
+<<<<<<< HEAD
       - Food # Goobstation - Allow targeting food items only
+=======
+      - Item # Goobstation
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
       tags:
       - Wall
     event: !type:DevourActionEvent

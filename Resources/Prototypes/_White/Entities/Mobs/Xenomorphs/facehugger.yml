@@ -29,7 +29,10 @@
       Critical: XenomorphCrit
       Dead: XenomorphDead
   - type: DamageStateVisuals
+<<<<<<< HEAD
     rotate: true
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
     states:
       Alive:
         Base: facehugger

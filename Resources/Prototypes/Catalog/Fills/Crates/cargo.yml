@@ -61,6 +61,7 @@
     - id: ParcelWrap
       amount: 3
 
+<<<<<<< HEAD
 #goobstart
 - type: entity
   id: CrateCargoClarkeAssembly
@@ -80,6 +81,8 @@
     - id: MechAirTank
     - id: MechThruster
 #goobend
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
 - type: entity
   id: CrateCargoGambling

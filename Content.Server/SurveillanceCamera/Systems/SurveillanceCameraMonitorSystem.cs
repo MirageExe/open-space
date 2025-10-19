@@ -127,7 +127,11 @@ public sealed class SurveillanceCameraMonitorSystem : EntitySystem
             if (monitor.LastHeartbeat > _maxHeartbeatTime)
             {
                 DisconnectCamera(uid, true, monitor);
+<<<<<<< HEAD
                 RemComp<ActiveSurveillanceCameraMonitorComponent>(uid); // Goobstation
+=======
+                RemComp<ActiveSurveillanceCameraMonitorComponent>(uid);
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
             }
         }
         // Goobstation start
@@ -329,7 +333,11 @@ public sealed class SurveillanceCameraMonitorSystem : EntitySystem
 
         monitor.ActiveCamera = null;
         monitor.ActiveCameraAddress = string.Empty;
+<<<<<<< HEAD
         RemComp<ActiveSurveillanceCameraMonitorComponent>(uid); // Goobstation
+=======
+        RemComp<ActiveSurveillanceCameraMonitorComponent>(uid);
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
         UpdateUserInterface(uid, monitor);
     }
 
@@ -361,7 +369,7 @@ public sealed class SurveillanceCameraMonitorSystem : EntitySystem
     // Goobstation start
     private void ReconnectToSubnets(EntityUid uid, SurveillanceCameraMonitorComponent? monitor = null)
     {
-        if (!Resolve(uid, ref monitor))
+        if (!Resolve(uid, ref monitor, false))
         {
             return;
         }

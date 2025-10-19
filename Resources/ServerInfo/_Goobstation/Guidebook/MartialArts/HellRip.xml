@@ -1,11 +1,16 @@
 <Document>
 
+<<<<<<< HEAD
   # Hell Ripte
+=======
+  # Адский разрыв
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
   <Box>
     <GuideEntityEmbed Entity="LegionnaireBonfire" Caption=""/>
   </Box>
 
+<<<<<<< HEAD
   Hell Ripte, is a [textlink="martial art" link="MartialArts"] that focuses on ripping through crowds of demons with
   brutal efficiency. This art can only be mastered by the slaughter demons of hell, as it requires an enormous amount of raw strength and power to master.
   A full understanding of this art will allow you to paint the station red. None will be safe from your carnage.
@@ -17,6 +22,17 @@
   ## Combo attacks
 
   ### Tear Down
+=======
+  Адский разрыв — это [textlink="боевое искусство" link="MartialArts"], сосредоточенное на безжалостном уничтожении орд демонов с ужасающей эффективностью. Это искусство могут постичь лишь демоны резни, поскольку для его освоения требуется огромное количество чистой силы и мощи. Полное овладение этим искусством позволит тебе окрасить станцию кровью. Никто не укроется от твоей резни.
+
+  ## Особые способности
+
+  Мастера Адского разрыва наносят колоссальный урон за короткое время, делая их непревзойдёнными в рукопашном бою.
+
+  ## Комбо-атаки
+
+  ### Срыв
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
@@ -24,9 +40,15 @@
     <GuideEntityEmbed Entity="GuidebookGrab" Caption=""/>
   </Box>
 
+<<<<<<< HEAD
   Deals massive slashing damage and bleeds the target.
 
   ### Head Rip
+=======
+  Наносит мощный режущий урон и вызывает кровотечение у цели.
+
+  ### Отвал башки
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
@@ -35,24 +57,40 @@
     <GuideEntityEmbed Entity="GuidebookGrab" Caption=""/>
   </Box>
 
+<<<<<<< HEAD
   Rip off the head of an opponent who is dead, very lethal. Cannot be done while target is alive.
 
   ### Hellish Slam
+=======
+  Отрывает голову у мёртвого противника — чрезвычайно смертоносно. Невозможно выполнить, если цель жива.
+
+  ### Адский удар
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
     <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
   </Box>
 
+<<<<<<< HEAD
   Knocks an opponent down and deals heavy stamina damage. If you are downed you pull yourself up.
 
   ### Drop Kick
+=======
+  Сбивает противника с ног и наносит сильный урон по выносливости. Если ты упал, то поднимаешься.
+
+  ### Удар с разворота
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
     <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
   </Box>
 
+<<<<<<< HEAD
   Launch a downed opponent. Great for painting. Cannot be done while on the ground.
+=======
+  Отбрасывает поверженного противника. Невозможно выполнить, находясь на земле.
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
 </Document>

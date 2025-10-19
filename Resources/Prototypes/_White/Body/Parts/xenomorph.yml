@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TODO: Add descriptions (many)
 # TODO: Sprite
 - type: entity
@@ -6,6 +7,21 @@
   name: xenomorph body part
   abstract: true
   components:
+=======
+- type: entity
+  parent: BasePart
+  id: PartXenomorph
+  abstract: true
+  components:
+  # <Goobstation>
+  - type: Sprite
+    sprite: _Shitmed/Mobs/Species/Xenomorph/parts.rsi
+  - type: Icon
+    sprite: _Shitmed/Mobs/Species/Xenomorph/parts.rsi
+  - type: XenoBodyPart
+  - type: HasTissueSample
+  # </Goobstation>
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
   - type: Extractable
     juiceSolution:
       reagents:
@@ -28,9 +44,12 @@
   name: xenomorph chest
   parent: [PartXenomorph, BaseChest]
   components:
+<<<<<<< HEAD
   - type: Sprite
     sprite: Mobs/Species/Human/parts.rsi
     state: chest_m
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
   - type: Extractable
     juiceSolution:
       reagents:
@@ -38,15 +57,30 @@
         Quantity: 10
       - ReagentId: FluorosulfuricAcid
         Quantity: 20
+<<<<<<< HEAD
+=======
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTypeTrigger
+        damageType: Heat
+        damage: 1500
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
 - type: entity
   id: GroinXenomorph
   name: xenomorph groin
   parent: [PartXenomorph, BaseGroin]
   components:
+<<<<<<< HEAD
   - type: Sprite
     sprite: Mobs/Species/Human/parts.rsi
     state: groin_m
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
   - type: Extractable
     juiceSolution:
       reagents:
@@ -60,9 +94,12 @@
   name: xenomorph head
   parent: [PartXenomorph, BaseHead]
   components:
+<<<<<<< HEAD
   - type: Sprite
     sprite: Mobs/Species/Human/parts.rsi
     state: head_m
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
   - type: Extractable
     juiceSolution:
       reagents:
@@ -75,70 +112,94 @@
   id: LeftArmXenomorph
   name: left xenomorph arm
   parent: [PartXenomorph, BaseLeftArm]
+<<<<<<< HEAD
   components:
   - type: Sprite
     sprite: Mobs/Species/Human/parts.rsi
     state: l_arm
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
 - type: entity
   id: RightArmXenomorph
   name: right xenomorph arm
   parent: [PartXenomorph, BaseRightArm]
+<<<<<<< HEAD
   components:
   - type: Sprite
     sprite: Mobs/Species/Human/parts.rsi
     state: r_arm
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
 - type: entity
   id: LeftHandXenomorph
   name: left xenomorph hand
   parent: [PartXenomorph, BaseLeftHand]
+<<<<<<< HEAD
   components:
   - type: Sprite
     sprite: Mobs/Species/Human/parts.rsi
     state: l_hand
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
 - type: entity
   id: RightHandXenomorph
   name: right xenomorph hand
   parent: [PartXenomorph, BaseRightHand]
+<<<<<<< HEAD
   components:
   - type: Sprite
     sprite: Mobs/Species/Human/parts.rsi
     state: r_hand
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
 - type: entity
   id: LeftLegXenomorph
   name: left xenomorph leg
   parent: [PartXenomorph, BaseLeftLeg]
+<<<<<<< HEAD
   components:
   - type: Sprite
     sprite: Mobs/Species/Human/parts.rsi
     state: l_leg
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
 - type: entity
   id: RightLegXenomorph
   name: right xenomorph leg
   parent: [PartXenomorph, BaseRightLeg]
+<<<<<<< HEAD
   components:
   - type: Sprite
     sprite: Mobs/Species/Human/parts.rsi
     state: r_leg
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
 - type: entity
   id: LeftFootXenomorph
   name: left xenomorph foot
   parent: [PartXenomorph, BaseLeftFoot]
+<<<<<<< HEAD
   components:
   - type: Sprite
     sprite: Mobs/Species/Human/parts.rsi
     state: l_foot
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
 - type: entity
   id: RightFootXenomorph
   name: right xenomorph foot
   parent: [PartXenomorph, BaseRightFoot]
+<<<<<<< HEAD
   components:
   - type: Sprite
     sprite: Mobs/Species/Human/parts.rsi
     state: r_foot
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532

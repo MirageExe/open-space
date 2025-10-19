@@ -29,3 +29,15 @@
   components:
   - type: Contraband
     allowedDepartments: [ Security, Engineering, Cargo ]
+<<<<<<< HEAD
+=======
+
+- type: entity
+  id: BaseSecurityZookeeperContraband # Tranq shells
+  parent: BaseRestrictedContraband
+  abstract: true
+  components:
+  - type: Contraband
+    allowedDepartments: [ Security ]
+    allowedJobs: [ Zookeeper ]
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532

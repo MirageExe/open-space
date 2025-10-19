@@ -26,8 +26,18 @@
   clauseWeight: -30
   addedComponents:
   - type: Devourer
+<<<<<<< HEAD
     foodPreference: Humanoid
     shouldStoreDevoured: true
+=======
+    foodPreferenceWhitelist:
+      components:
+      - HumanoidAppearance
+    stomachStorageWhitelist:
+      components:
+      - MobState
+      - Item
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
     chemical: Ichor
     healRate: 7.5
     whitelist:

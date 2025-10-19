@@ -7,5 +7,11 @@ using Content.Shared.Actions;
 
 namespace Content.Goobstation.Shared.SlaughterDemon;
 
+<<<<<<< HEAD
 public sealed partial class BloodCrawlEvent : InstantActionEvent { }
 public sealed partial class DemonicWhisperEvent : EntityTargetActionEvent { }
+=======
+public sealed partial class BloodCrawlEvent : InstantActionEvent;
+
+public sealed partial class DemonicWhisperEvent : EntityTargetActionEvent;
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532

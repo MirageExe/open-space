@@ -22,6 +22,10 @@
       briefing:
         text: slaughter-role-greeting
         color: Red
+<<<<<<< HEAD
+=======
+        sound: /Audio/_Goobstation/SlaughterDemon/briefing.ogg
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
       components:
       - type: RandomMetadata
         nameSegments:
@@ -53,6 +57,10 @@
       briefing:
         text: laughter-role-greeting
         color: Pink
+<<<<<<< HEAD
+=======
+        sound: /Audio/_Goobstation/Vehicle/Clowncar/clowncar_fart.ogg
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
       components:
       - type: RandomMetadata
         nameSegments:
@@ -81,6 +89,10 @@
       briefing:
         text: slaughter-role-greeting
         color: Red
+<<<<<<< HEAD
+=======
+        sound: /Audio/Misc/narsie_rises.ogg
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
       components:
       - type: RandomMetadata
         nameSegments:
@@ -91,9 +103,15 @@
   - type: AntagSpawner
     prototype: MobLesserSlaughterDemon
   - type: StationEvent
+<<<<<<< HEAD
     weight: 5.5
     earliestStart: 50
     minimumPlayers: 35
+=======
+    weight: 1
+    earliestStart: 45
+    minimumPlayers: 50
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
     duration: null
     maxOccurrences: 1
     chaos:

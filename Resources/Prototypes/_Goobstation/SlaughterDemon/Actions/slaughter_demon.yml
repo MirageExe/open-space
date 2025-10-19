@@ -30,6 +30,10 @@
     itemIconStyle: NoItem
   - type: TargetAction
     interactOnMiss: false
+<<<<<<< HEAD
+=======
+    range: 15
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
   - type: EntityTargetAction
     canTargetSelf: false
     event: !type:DemonicWhisperEvent

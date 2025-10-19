@@ -3,7 +3,10 @@ using Content.Server._White.Spawners.Components;
 using Content.Server.Atmos.Components;
 using Content.Shared.Maps;
 using Robust.Server.GameObjects;
+<<<<<<< HEAD
 using Robust.Shared.Map;
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 using Robust.Shared.Map.Components;
 using Robust.Shared.Random;
 using Robust.Shared.Spawners;
@@ -14,9 +17,14 @@ namespace Content.Server._White.Spawners.Systems;
 public sealed class AreaSpawnerSystem : EntitySystem
 {
     [Dependency] private readonly IGameTiming _timing = default!;
+<<<<<<< HEAD
     [Dependency] private readonly IMapManager _mapManager = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
 
+=======
+    [Dependency] private readonly IRobustRandom _random = default!;
+    [Dependency] private readonly TurfSystem _turf = default!;
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
     [Dependency] private readonly MapSystem _map = default!;
     [Dependency] private readonly TransformSystem _transform = default!;
 
@@ -36,11 +44,21 @@ public sealed class AreaSpawnerSystem : EntitySystem
     {
         foreach (var spawned in component.Spawneds)
         {
+<<<<<<< HEAD
             var despawnComponent = new TimedDespawnComponent
             {
                 Lifetime = _random.NextFloat(component.MinTime, component.MaxTime)
             };
             AddComp(spawned, despawnComponent);
+=======
+            // <Goobstation> rewrote to be non goida
+            if (TerminatingOrDeleted(spawned))
+                continue;
+
+            var comp = EnsureComp<TimedDespawnComponent>(spawned);
+            comp.Lifetime = _random.NextFloat(component.MinTime, component.MaxTime);
+            // </Goobstation>
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
         }
     }
 
@@ -92,7 +110,11 @@ public sealed class AreaSpawnerSystem : EntitySystem
             return false;
 
         var coords = xform.Coordinates.Offset(offset);
+<<<<<<< HEAD
         var tile = coords.GetTileRef(EntityManager, _mapManager);
+=======
+        var tile = _turf.GetTileRef(coords);
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
         if (!tile.HasValue || tile.Value.Tile.IsEmpty)
             return false;

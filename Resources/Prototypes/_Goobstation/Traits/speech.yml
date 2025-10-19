@@ -52,6 +52,19 @@
   - type: MedievalAccent
 
 - type: trait
+<<<<<<< HEAD
+=======
+  id: NewYorkAccent
+  name: trait-newyork-name
+  description: trait-newyork-desc
+  category: SpeechTraits
+  cost: 1
+  components:
+  - type: ReplacementAccent
+    accent: newyork
+
+- type: trait
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
   id: british
   name: trait-british-name
   description: trait-british-desc
@@ -59,4 +72,8 @@
   cost: 1
   components:
   - type: ReplacementAccent
+<<<<<<< HEAD
     accent: british
+=======
+    accent: british
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532

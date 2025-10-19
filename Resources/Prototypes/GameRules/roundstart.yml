@@ -162,6 +162,11 @@
       prob: 0.2
     - id: Devil # Goob
       prob: 0.02
+<<<<<<< HEAD
+=======
+    - id: Shadowling # Goob
+      prob: 0.09
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 
 - type: entity
   parent: BaseGameRule

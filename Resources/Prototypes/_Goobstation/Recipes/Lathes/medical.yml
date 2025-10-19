@@ -97,3 +97,16 @@
     Glass: 250
     Plasma: 100
     Silver: 50
+<<<<<<< HEAD
+=======
+
+- type: latheRecipe
+  id: XenoCompatibilityImplanter
+  result: XenoCompatibilityImplanter
+  completetime: 8
+  materials:
+    Steel: 500
+    Glass: 750
+    Plasma: 1500
+    Silver: 300
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532

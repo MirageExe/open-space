@@ -4,6 +4,11 @@
   name: Lamarr
   description: A former nightmare candidate, now an exemplary pet.
   components:
+<<<<<<< HEAD
+=======
+  - type: Sprite
+    sprite: _White/Mobs/Aliens/Xenomorphs/old_facehugger.rsi
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
   - type: FaceHugger
     knockdownTime: 0
     infectionPrototype: null

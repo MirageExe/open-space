@@ -1,12 +1,16 @@
 using Content.Shared._White.Xenomorphs.Acid;
 using Content.Shared._White.Xenomorphs.Acid.Components;
+<<<<<<< HEAD
 using Content.Server.Actions;
+=======
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
 using Content.Shared.Damage;
 
 namespace Content.Server._White.Xenomorphs.Acid;
 
 public sealed class XenomorphAcidSystem : SharedXenomorphAcidSystem
 {
+<<<<<<< HEAD
     [Dependency] private readonly ActionsSystem _actions = default!;
     [Dependency] private readonly DamageableSystem _damageable = default!;
 
@@ -24,6 +28,10 @@ public sealed class XenomorphAcidSystem : SharedXenomorphAcidSystem
     private void OnXenomorphAcidShutdown(EntityUid uid, XenomorphAcidComponent component, ComponentShutdown args) =>
         _actions.RemoveAction(uid, component.AcidAction);
 
+=======
+    [Dependency] private readonly DamageableSystem _damageable = default!;
+
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
     public override void Update(float frameTime)
     {
         var time = Timing.CurTime;

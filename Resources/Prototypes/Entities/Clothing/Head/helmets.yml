@@ -510,6 +510,10 @@
     tags:
     - WhitelistChameleon
     - FireHelmet
+<<<<<<< HEAD
+=======
+    - CorgiWearable
+>>>>>>> 34d528ea8a7d94c4210a4a9451241abc44543532
   - type: HideLayerClothing # Goobstation Start
     layers:
       Hair: HEAD
