@@ -355,3 +355,110 @@
   path:
     path: /Audio/_Goobstation/Music/Between_Two_Worlds.ogg
 
+- type: jukebox
+  id: fanat
+  name: Почему ты еще не фанат?
+  path:
+    path: /Audio/_Goobstation/Music/fanat.ogg
+
+- type: jukebox
+  id: Gimn
+  name: Гимн Дахака
+  path:
+    path: /Audio/_Goobstation/Music/Gimn.ogg
+
+- type: jukebox
+  id: katke
+  name: Остановите катку
+  path:
+    path: /Audio/_Goobstation/Music/katke.ogg
+
+- type: jukebox
+  id: prazdnik
+  name: Праздник
+  path:
+    path: /Audio/_Goobstation/Music/prazdnik.ogg
+
+- type: jukebox
+  id: shizoid
+  name: Шизоид
+  path:
+    path: /Audio/_Goobstation/Music/shizoid.ogg
+
+- type: jukebox
+  id: topor
+  name: Мой топор
+  path:
+    path: /Audio/_Goobstation/Music/topor.ogg
+
+- type: jukebox
+  id: tpnaame
+  name: Тп на аме
+  path:
+    path: /Audio/_Goobstation/Music/tpnaame.ogg
+
+- type: jukebox
+  id: trave
+  name: В этой траве
+  path:
+    path: /Audio/_Goobstation/Music/trave.ogg
+
+- type: jukebox
+  id: vaib
+  name: Вайбмен
+  path:
+    path: /Audio/_Goobstation/Music/vaib.ogg
+
+- type: jukebox
+  id: zombie
+  name: Зомби Апокалипсис
+  path:
+    path: /Audio/_Goobstation/Music/zombie.ogg
+
+- type: jukebox
+  id: Garret
+  name: At the Garret x Kekkan Orgel Gekijou no Kemono
+  path:
+    path: /Audio/_Goobstation/Music/At-the-Garret-x-Kekkan-Orgel-Gekijou-no-Kemono.ogg
+
+- type: jukebox
+  id: DECO27
+  name: DECO27
+  path:
+    path: /Audio/_Goobstation/Music/DECO27-モニタリング-feat.-初音ミク.ogg
+
+- type: jukebox
+  id: Flowering
+  name: Flowering Night Fever
+  path:
+    path: /Audio/_Goobstation/Music/Flowering-Night-Fever.ogg
+
+- type: jukebox
+  id: Frozen
+  name: Frozen
+  path:
+    path: /Audio/_Goobstation/Music/Frozen.ogg
+
+- type: jukebox
+  id: MV
+  name: MVプロポーズ 9Lana
+  path:
+    path: /Audio/_Goobstation/Music/MVプロポーズ-9Lana.ogg
+
+- type: jukebox
+  id: SSH
+  name: SSH Intersect Thunderbolt Remix
+  path:
+    path: /Audio/_Goobstation/Music/SSH-Intersect-Thunderbolt-Remix.ogg
+
+- type: jukebox
+  id: 5150
+  name: 5150 Ryu 5150 Louder than steel
+  path:
+    path: /Audio/_Goobstation/Music/5150-Ryu-5150-Louder-than-steel.ogg
+
+- type: jukebox
+  id: hz
+  name: I will never go away
+  path:
+    path: /Audio/_Goobstation/Music/何処にも行かない.ogg

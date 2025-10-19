@@ -18,24 +18,65 @@
   copyright: "Original music by Crockitz"
   source: "https://discord.com/channels/1202734573247795300/1405280283254853806/1405534426183762072"
 
-- files: ["36.ogg"]
+- files: ["ap.ogg"]
+
+- files: ["At-the-Garret-x-Kekkan-Orgel-Gekijou-no-Kemono.ogg"]
+
+- files: ["Between_Two_Worlds.ogg"]
 
 - files: ["C418.ogg"]
 
-- files: ["pl.ogg"]
+- files: ["Compass.ogg"]
 
-- files: ["ap.ogg"]
+- files: ["DECO27-モニタリング-feat.-初音ミク.ogg"]
+
+- files: ["Flowering-Night-Fever.ogg"]
+
+- files: ["Frozen.ogg"]
+
+- files: ["Hero.ogg"]
 
 - files: ["Intervallo_III_Battle_Theme_A1.ogg"]
 
 - files: ["Intervallo_V_2_Battle.ogg"]
 
-- files: ["Hero.ogg"]
-
-- files: ["TIAN_TIAN.ogg"]
-
-- files: ["Compass.ogg"]
+- files: ["MVプロポーズ-9Lana.ogg"]
 
 - files: ["Patches.ogg"]
 
-- files: ["Between_Two_Worlds.ogg"]
+- files: ["pl.ogg"]
+
+- files: ["running_in.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Original music by Q/\ntum & Z.W.E.I. for SS220, slightly modified by pheenty"
+  source: "https://youtu.be/AisGME8DRk0"
+
+- files: ["SSH-Intersect-Thunderbolt-Remix.ogg"]
+
+- files: ["TIAN_TIAN.ogg"]
+
+- files: ["36.ogg"]
+
+- files: ["5150-Ryu-5150-Louder-than-steel.ogg"]
+
+- files: ["何処にも行かない.ogg"]
+
+- files: ["fanat.ogg"]
+
+- files: ["Gimn.ogg"]
+
+- files: ["katke.ogg"]
+
+- files: ["prazdnik.ogg"]
+
+- files: ["shizoid.ogg"]
+
+- files: ["topor.ogg"]
+
+- files: ["tpnaame.ogg"]
+
+- files: ["trave.ogg"]
+
+- files: ["vaib.ogg"]
+
+- files: ["zombie.ogg"]
