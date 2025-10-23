@@ -129,6 +129,8 @@ using Content.Client.Changelog;
 using Content.Client.Chat.Managers;
 using Content.Client.Clickable;
 using Content.Client.DebugMon;
+using Content.Client.JoinQueue;
+using Content.Client.Options;
 using Content.Client.Eui;
 using Content.Client.Fullscreen;
 using Content.Client.GameTicking.Managers;
@@ -150,6 +152,7 @@ using Content.Shared.Administration.Managers;
 using Content.Shared.Chat;
 using Content.Shared.Players.PlayTimeTracking;
 using Content.Shared.Players.RateLimiting;
+using Content.Client._NC.DiscordAuth;
 
 namespace Content.Client.IoC
 {
@@ -190,6 +193,8 @@ namespace Content.Client.IoC
             //collection.Register<ServerCurrencySystem>(); // Goob Station - Goob Coin
             collection.Register<LinkAccountManager>(); // RMC14
             CorvaxGoob-Coins-end */
+            collection.Register<JoinQueueManager>();
+			collection.Register<DiscordAuthManager>();
         }
     }
 }
